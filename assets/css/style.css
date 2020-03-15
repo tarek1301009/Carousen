@@ -1,0 +1,124 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color:#333;
+}
+body {
+    color: #666866;
+}
+a:hover { text-decoration: none }
+
+font-family: 'Open Sans', sans-serif;
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+
+.section-border {
+    margin-bottom: 50px;
+    /* text-align: center; */
+    display: inline-block;
+}
+.section-border span {
+    display: inline-block;
+    height: 5px;
+    width: 50px;
+    background: #6AAF08;
+    float: left;
+    border-radius: 2px;
+}
+
+.section-border span.black-border {
+    background: #222222;
+    width: 30px;
+    margin: 0 10px;
+}
+.section-title {
+    text-align: center;
+}
+
+
+.clients-testimonial-carousel .owl-dots {
+    text-align: center;
+}
+
+.clients-testimonial-carousel.owl-carousel.owl-loaded.owl-drag .owl-dots button {
+    display: inline-block;
+    background: #6AAF08;
+    width: 20px;
+    height: 5px;
+    margin:5px;
+    border-radius: 2px;
+}
+
+.clients-testimonial-carousel.owl-carousel.owl-loaded.owl-drag .owl-dot.active {
+    background: #333;
+    width: 30px;
+}
+.single-testimonila-item {
+    padding: 20px;
+    margin: 2px;
+    box-shadow: 0 0 2px #D5DCCC;
+    font-style: italic;
+    position: relative;
+    padding-left: 70px;
+}
+.single-testimonila-item:before{
+    font-family: fontAwesome;
+    content:"\f10d";
+    font-size: 20px;
+    line-height: 50%;
+    top: 50%;
+    left: 20%;
+    position: absolute;
+    margin-left: -15%;
+}
+.single-testimonila-item h3 {
+    font-size: 20px;
+    display: inline-grid;
+}
+
+.single-testimonila-item h3 span {
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+
+.single-testimonila-item:after {
+    position: absolute;
+    height: 67%;
+    width: 1px;
+    content: "";
+    background: #D1D1D1;
+    left: 59px;
+    top: 13%;
+}
